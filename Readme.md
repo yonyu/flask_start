@@ -14,6 +14,9 @@ mkdir templates
 
 git init
 
+git remote add origin https://github.com/yonyu/flask_start.git
+git branch -M master
+
 
 
 python -m venv .venv
@@ -34,6 +37,11 @@ Pylance - tool for type checking
 
 Even Better TOML - for pyproject.toml files
 Better Jinja - Jinja2 template syntax highlighting
+Ruff - the best and only linter you'll need
+Live Preview - lets you render web pages within VS Code with auto-refresh
+Python Indent - Correct Python indentation
+
+Markdown All in One - because you'll generally see plenty of Markdown in project
 
 Traycer - an AI assistant. Alternatives: Black Box, Windsurf Plugin (formerly Codeium)
 
