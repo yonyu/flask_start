@@ -26,8 +26,16 @@ pip install Flask
 ```
 
 
+# VS Code extensions
 
+Python
+Jupyter - for working with Jupyter notebooks
+Pylance - tool for type checking
 
+Even Better TOML - for pyproject.toml files
+Better Jinja - Jinja2 template syntax highlighting
+
+Traycer - an AI assistant. Alternatives: Black Box, Windsurf Plugin (formerly Codeium)
 
 # Initial files and folders for a Flask app
 
@@ -44,5 +52,7 @@ templates/
 jinja is used
 
 flask run
+http://127.0.0.1:5000
+
 
 
