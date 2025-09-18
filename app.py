@@ -6,6 +6,6 @@ app = Flask(__name__) # take variable name as app by convention; The function ca
 def index(): # the function name can be anything, just name it as index()
     return  render_template("index.html") # index.html, but we can't return it directly
 
-@app.route('/greet')
+@app.route('/greet', methods=["POST"])
 def greet():
     return render_template("greet.html", name=request.args.get('name', 'world'))
